@@ -268,19 +268,14 @@ Clash GPT节点通过加密通信保护用户的隐私，防止数据被监控�
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 如何设置多入口实现不同访问控制？</h5></div>
-    <div class="panel-body">
-        通过定义多个 inbound，对不同端口绑定不同的 tag 并在路由中匹配流量。可针对内网用户、远程用户或特定 IP 段应用不同规则，实现灵活访问控制与流量隔离。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Hiddify Next 用户流量配额如何设置？</h5></div>
     <div class="panel-body">
         管理员可为每个用户设置带宽和流量上限，超出限制可自动降速或阻止访问，保证服务器资源合理分配，避免单用户占用过多带宽，提高整体网络公平性和使用效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 的配置文件在哪里保存？</h5></div>
+    <div class="panel-heading"><h5>VLESS + Reality 模式相比普通 TLS 有什么优势？</h5></div>
     <div class="panel-body">
-        Nekoray 的配置文件默认保存在程序目录下的 `config.json` 中。用户可手动备份此文件以迁移配置，也可使用导入导出功能在不同设备间同步节点数据。<hr />    </div>
+        Reality 模式通过伪装握手和真实网站特征，提高流量隐蔽性，难以被 DPI 检测。TLS 模式更侧重加密和传输效率，Reality 更适合高封锁网络环境。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Potatso Lite 能否手动添加节点？</h5></div>
@@ -288,9 +283,9 @@ Clash GPT节点通过加密通信保护用户的隐私，防止数据被监控�
         Potatso Lite 支持手动添加 Shadowsocks 节点。用户在“配置”中选择添加节点，输入服务器、端口、加密方式等信息即可建立连接，适合手动管理单个线路。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 如何通过域名规则实现精准分流？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 的配置文件在哪里保存？</h5></div>
     <div class="panel-body">
-        Sing-box 支持根据域名匹配流量，将不同网站或应用流量分配到指定节点。结合策略组，可实现自动切换最优节点，优化访问速度和网络稳定性，提高整体使用体验。<hr />    </div>
+        Nekoray 的配置文件默认保存在程序目录下的 `config.json` 中。用户可手动备份此文件以迁移配置，也可使用导入导出功能在不同设备间同步节点数据。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>QuantumultX 的重写规则可实现哪些功能？</h5></div>
@@ -308,14 +303,19 @@ Clash GPT节点通过加密通信保护用户的隐私，防止数据被监控�
         在 WSL 内运行需要的调试工具并通过 localhost 或将 V2Ray 监听地址绑定为 0.0.0.0，然后在 Windows 与 WSL 之间配置端口映射。注意 Windows 防火墙规则需允许 WSL 与 Windows 进程通信。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS + Reality 模式相比普通 TLS 有什么优势？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 如何通过域名规则实现精准分流？</h5></div>
     <div class="panel-body">
-        Reality 模式通过伪装握手和真实网站特征，提高流量隐蔽性，难以被 DPI 检测。TLS 模式更侧重加密和传输效率，Reality 更适合高封锁网络环境。<hr />    </div>
+        Sing-box 支持根据域名匹配流量，将不同网站或应用流量分配到指定节点。结合策略组，可实现自动切换最优节点，优化访问速度和网络稳定性，提高整体使用体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS 与 VMess 的主要区别是什么？</h5></div>
     <div class="panel-body">
-        VLESS 是 VMess 的轻量化替代协议，移除了内置加密逻辑，更依赖 TLS 层进行安全保护。这种设计降低了服务器压力，提升了传输效率，并增强了可扩展性。    </div>
+        VLESS 是 VMess 的轻量化替代协议，移除了内置加密逻辑，更依赖 TLS 层进行安全保护。这种设计降低了服务器压力，提升了传输效率，并增强了可扩展性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 如何设置多入口实现不同访问控制？</h5></div>
+    <div class="panel-body">
+        通过定义多个 inbound，对不同端口绑定不同的 tag 并在路由中匹配流量。可针对内网用户、远程用户或特定 IP 段应用不同规则，实现灵活访问控制与流量隔离。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -344,16 +344,16 @@ Clash GPT节点通过加密通信保护用户的隐私，防止数据被监控�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-4-vless-node-github.htm" title="免费Vless节点 | 11月4日22.9M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点订阅节点">免费Vless节点 | 11月4日22.9M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-6-today-vless-node.htm" title="免费Vless节点 | 10月6日21.6M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点订阅节点">免费Vless节点 | 10月6日21.6M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-3-today-vless-node.htm" title="免费Vless节点 | 11月3日21.8M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点订阅节点">免费Vless节点 | 11月3日21.8M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-6-node-share.htm" title="免费Vless节点 | 11月6日19M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点">免费Vless节点 | 11月6日19M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-3-free-node-subscribe.htm" title="免费Vless节点 | 10月3日22.6M/S|免费V2ray节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点订阅节点">免费Vless节点 | 10月3日22.6M/S|免费V2ray节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-13-latest-vless-node.htm" title="免费Vless节点 | 11月13日20.3M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点订阅节点">免费Vless节点 | 11月13日20.3M/S|免费V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-12-free-vless-node.htm" title="免费Vless节点 | 11月12日21.8M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点订阅节点">免费Vless节点 | 11月12日21.8M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-8-vless-node.htm" title="免费Vless节点 | 10月8日21M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Singbox节点订阅节点">免费Vless节点 | 10月8日21M/S|免费Shadowrocket节点/V2ray节点/SSR节点/Clash节点/Singbox节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-2-free-node-subscribe-links.htm" title="免费Vless节点 | 11月2日19.7M/S|免费SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点订阅节点">免费Vless节点 | 11月2日19.7M/S|免费SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点订阅节点</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-5-free-vless-node.htm" title="免费Vless节点 | 11月5日21.4M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅节点">免费Vless节点 | 11月5日21.4M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-21-latest-vless-node.htm" title="免费Vless节点 | 10月21日20.3M/S|免费SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点订阅节点">免费Vless节点 | 10月21日20.3M/S|免费SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-10-vless-github.htm" title="免费Vless节点 | 10月10日19.8M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点订阅节点">免费Vless节点 | 10月10日19.8M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-24-vless-node.htm" title="免费Vless节点 | 10月24日21.9M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点订阅节点">免费Vless节点 | 10月24日21.9M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-20-vless-windows.htm" title="免费Vless节点 | 10月20日20.2M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点订阅节点">免费Vless节点 | 10月20日20.2M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点订阅节点</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-5-latest-vless-node.htm" title="免费Vless节点 | 10月5日21M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Clash节点订阅节点">免费Vless节点 | 10月5日21M/S|免费SSR节点/Shadowrocket节点/V2ray节点/Singbox节点/Clash节点订阅节点</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-14-vless-node-share.htm" title="免费Vless节点 | 10月14日19.2M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点订阅节点">免费Vless节点 | 10月14日19.2M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点订阅节点</a></li>
                     </ul>
     </div>
 </div>
@@ -365,7 +365,7 @@ Clash GPT节点通过加密通信保护用户的隐私，防止数据被监控�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">7</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
