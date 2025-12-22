@@ -1,4 +1,4 @@
-# 免费Vless节点 | 12月15日21.3M/S|免费SSR节点/Singbox节点/Shadowrocket节点/V2ray节点/Clash节点订阅节点  更新时间 2025-12-15 08:46:10
+# 免费Vless节点 | 12月22日21.1M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点订阅节点  更新时间 2025-12-22 10:58:02
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://freevlessnode.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://freevlessnode.github.io/uploads/2025/12/0-20251215.yaml
-- https://freevlessnode.github.io/uploads/2025/12/1-20251215.yaml
-- https://freevlessnode.github.io/uploads/2025/12/2-20251215.yaml
-- https://freevlessnode.github.io/uploads/2025/12/3-20251215.yaml
-- https://freevlessnode.github.io/uploads/2025/12/4-20251215.yaml
+- https://freevlessnode.github.io/uploads/2025/12/0-20251222.yaml
+- https://freevlessnode.github.io/uploads/2025/12/1-20251222.yaml
+- https://freevlessnode.github.io/uploads/2025/12/2-20251222.yaml
+- https://freevlessnode.github.io/uploads/2025/12/3-20251222.yaml
+- https://freevlessnode.github.io/uploads/2025/12/4-20251222.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://freevlessnode.github.io/uploads/2025/12/0-20251215.txt
-- https://freevlessnode.github.io/uploads/2025/12/1-20251215.txt
-- https://freevlessnode.github.io/uploads/2025/12/2-20251215.txt
-- https://freevlessnode.github.io/uploads/2025/12/3-20251215.txt
-- https://freevlessnode.github.io/uploads/2025/12/4-20251215.txt
+- https://freevlessnode.github.io/uploads/2025/12/0-20251222.txt
+- https://freevlessnode.github.io/uploads/2025/12/1-20251222.txt
+- https://freevlessnode.github.io/uploads/2025/12/2-20251222.txt
+- https://freevlessnode.github.io/uploads/2025/12/3-20251222.txt
+- https://freevlessnode.github.io/uploads/2025/12/4-20251222.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://freevlessnode.github.io/uploads/2025/12/20251215.json
+- https://freevlessnode.github.io/uploads/2025/12/20251222.json
 
 ## 更多Clash节点订阅 ：
 
